@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Box-Office-Application-using-React/static/css/main.5fffadb5.chunk.css",
-    "main.js": "/Box-Office-Application-using-React/static/js/main.10bd4c17.chunk.js",
-    "main.js.map": "/Box-Office-Application-using-React/static/js/main.10bd4c17.chunk.js.map",
+    "main.js": "/Box-Office-Application-using-React/static/js/main.5d62d103.chunk.js",
+    "main.js.map": "/Box-Office-Application-using-React/static/js/main.5d62d103.chunk.js.map",
     "runtime-main.js": "/Box-Office-Application-using-React/static/js/runtime-main.8936a78e.js",
     "runtime-main.js.map": "/Box-Office-Application-using-React/static/js/runtime-main.8936a78e.js.map",
-    "static/js/2.04e9170a.chunk.js": "/Box-Office-Application-using-React/static/js/2.04e9170a.chunk.js",
-    "static/js/2.04e9170a.chunk.js.map": "/Box-Office-Application-using-React/static/js/2.04e9170a.chunk.js.map",
+    "static/js/2.305df163.chunk.js": "/Box-Office-Application-using-React/static/js/2.305df163.chunk.js",
+    "static/js/2.305df163.chunk.js.map": "/Box-Office-Application-using-React/static/js/2.305df163.chunk.js.map",
     "static/js/3.70ef4970.chunk.js": "/Box-Office-Application-using-React/static/js/3.70ef4970.chunk.js",
     "static/js/3.70ef4970.chunk.js.map": "/Box-Office-Application-using-React/static/js/3.70ef4970.chunk.js.map",
     "index.html": "/Box-Office-Application-using-React/index.html",
     "static/css/main.5fffadb5.chunk.css.map": "/Box-Office-Application-using-React/static/css/main.5fffadb5.chunk.css.map",
-    "static/js/2.04e9170a.chunk.js.LICENSE.txt": "/Box-Office-Application-using-React/static/js/2.04e9170a.chunk.js.LICENSE.txt"
+    "static/js/2.305df163.chunk.js.LICENSE.txt": "/Box-Office-Application-using-React/static/js/2.305df163.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8936a78e.js",
-    "static/js/2.04e9170a.chunk.js",
+    "static/js/2.305df163.chunk.js",
     "static/css/main.5fffadb5.chunk.css",
-    "static/js/main.10bd4c17.chunk.js"
+    "static/js/main.5d62d103.chunk.js"
   ]
 }
