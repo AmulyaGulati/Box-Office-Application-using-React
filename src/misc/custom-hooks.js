@@ -34,7 +34,7 @@ export function useShows(key = 'shows') {
   return usePersistedReducer(showsReducer, [], key);
 }
 
-export function useLastQuery(key = 'lastQuery') {
+export default function useLastQuery(key = 'lastQuery') {
   const [input, setInput] = useState(() => {
     const persisted = sessionStorage.getItem(key);
 
