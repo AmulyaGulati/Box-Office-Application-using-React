@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Box-Office-Application-using-React/static/css/main.5fffadb5.chunk.css",
-    "main.js": "/Box-Office-Application-using-React/static/js/main.5d62d103.chunk.js",
-    "main.js.map": "/Box-Office-Application-using-React/static/js/main.5d62d103.chunk.js.map",
+    "main.js": "/Box-Office-Application-using-React/static/js/main.05a6dba8.chunk.js",
+    "main.js.map": "/Box-Office-Application-using-React/static/js/main.05a6dba8.chunk.js.map",
     "runtime-main.js": "/Box-Office-Application-using-React/static/js/runtime-main.8936a78e.js",
     "runtime-main.js.map": "/Box-Office-Application-using-React/static/js/runtime-main.8936a78e.js.map",
     "static/js/2.305df163.chunk.js": "/Box-Office-Application-using-React/static/js/2.305df163.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8936a78e.js",
     "static/js/2.305df163.chunk.js",
     "static/css/main.5fffadb5.chunk.css",
-    "static/js/main.5d62d103.chunk.js"
+    "static/js/main.05a6dba8.chunk.js"
   ]
 }
