@@ -34,9 +34,10 @@ export function useShows(key = 'shows') {
   return usePersistedReducer(showsReducer, [], key);
 }
 
-export default function useLastQuery(key = 'lastQuery') {
+export function useLastQuery(key = 'lastQuery') {
   const [input, setInput] = useState(() => {
     const persisted = sessionStorage.getItem(key);
+
     return persisted ? JSON.parse(persisted) : '';
   });
 
@@ -66,7 +67,7 @@ const reducer = (prevState, action) => {
   }
 };
 
-export function useShow(showID) {
+export function useShow(showId) {
   const [state, dispatch] = useReducer(reducer, {
     show: null,
     isLoading: true,
@@ -76,7 +77,7 @@ export function useShow(showID) {
   useEffect(() => {
     let isMounted = true;
 
-    apiGet(`/shows/${showID}?embed[]=seasons&embed[]=cast`)
+    apiGet(`/shows/${showId}?embed[]=seasons&embed[]=cast`)
       .then(results => {
         if (isMounted) {
           dispatch({ type: 'FETCH_SUCCESS', show: results });
@@ -91,7 +92,7 @@ export function useShow(showID) {
     return () => {
       isMounted = false;
     };
-  }, [showID]);
+  }, [showId]);
 
   return state;
 }
@@ -100,6 +101,7 @@ export function useWhyDidYouUpdate(name, props) {
   // Get a mutable ref object where we can store props ...
   // ... for comparison next time this hook runs.
   const previousProps = useRef();
+
   useEffect(() => {
     if (previousProps.current) {
       // Get all keys from previous and current props
@@ -117,11 +119,13 @@ export function useWhyDidYouUpdate(name, props) {
           };
         }
       });
+
       // If changesObj not empty then output to console
       if (Object.keys(changesObj).length) {
         console.log('[why-did-you-update]', name, changesObj);
       }
     }
+
     // Finally update previousProps with current props for next hook call
     previousProps.current = props;
   });
